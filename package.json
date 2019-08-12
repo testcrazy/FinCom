@@ -1,0 +1,29 @@
+{
+  "name": "fincomptest",
+  "version": "1.0.0",
+  "description": "just some tests",
+  "main": "Landingpage.js",
+  "dependencies": {
+    "protractor": "5.4.2",
+    "jasmine-data-provider": "2.2.0",
+    "protractor-jasmine2-html-reporter": "0.0.7"
+  },
+  "scripts": {
+    "webdriver-update": "webdriver-manager update",
+    "webdriver-start": "webdriver-manager start",
+    "protractor": "protractor conf.js",
+    "SmokeSuite": "protractor conf.js --suite smoke",
+    "start": "npm run webdriver-update && npm run webdriver-start"
+  },
+  "keywords": [],
+  "author": "MJ",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testcrazy/FinCom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/testcrazy/FinCom/issues"
+  },
+  "homepage": "https://github.com/testcrazy/FinCom#readme"
+}
